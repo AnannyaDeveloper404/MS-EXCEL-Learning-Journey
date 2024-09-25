@@ -5,7 +5,6 @@
   - **POWERPOINT**
   - **WORD**
 
-===================================================================================================
 **MS EXCEL**
 
 - MS EXCEL is a spreadsheet software created by Microsoft that is used to organize numbers and data in a sheet.
@@ -26,8 +25,6 @@
 - Performance Reporting
 - Strategic Analysis
 - Project Management
-
-===================================================================================================
 
 ## Excel Terminology Simplified
 
@@ -52,8 +49,6 @@
   ```
 
   includes all the cells from C3 to F9.
-
-===================================================================================================
 
 ## Predefined Formula
 

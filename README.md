@@ -50,12 +50,38 @@
 
   includes all the cells from C3 to F9.
 
-## Predefined Formula
+## Functions, Formula , Shortcuts
 
 - `=SQRT(16)`
 
-  - **Formula** to calculate the square root of 16.
+  - to calculate the square root of 16.
 
 - `=C9+D3` (in cell D4)
   - In D4, enter `=` then select cell `C9`, enter `+`, then select `D3`, and press Enter.
   - You can do the same with subtraction (`-`), multiplication (`*`), and division (`/`).
+- `=POWER(2,4)`
+  - to calculate 2 raised to power 4
+- `Inceasing Decreasing decimal digit `
+  - In the Number section of Hom tab ,you will get to see two button `<-0.00` `->0.00`
+    the first one is used to to increase and other one used to decrease decimal digit
+- `Inserting New column` :
+  - to insert new column click right button on the column index and then in the dropdown menu, click on insert,it will insert a new column to the left of the corresponding column .Same for row.Same thing can be done by right cicking on cell .It will provide you with several option.do as you wish.
+- `Merge & Center` :
+  - It is present in the Alignment section of home tab.It helps to convert multiple cell to one single cell.
+- `Increasing title cell to fit the full text`:
+  - hover over column index edge and double left click
+  - select the columns then press`alt > h > o > i`
+- `Entering Serial Number shortcut:`
+  - Enter the first cell value as 1 and then the second cell value (e.g., 2).
+  - Select both cells and drag the fill handle to extend the sequence as needed.
+  - The sequence will follow the gap between the two selected cells. For example, if the gap between 1 and 2 is 1, the sequence will be 1, 2, 3, 4, 5, 6 and so on.
+  - If the gap is 4 (e.g., 1 and 5), the sequence will be 1, 5, 9, 13, 17, 21, and so on.
+  - Another way is to press Ctrl while dragging the fill handle. After dragging, release the mouse.
+- `Data Entry :`
+  - For faster data entry ,we need to follow the process.We have select the area in which we need to enter the data,then keep entering data and press enter to go next cell ,this way it can get faster.
+- `=SUM(RANGE) ; =MAX(RANGE) ; =MIN(RANGE) ; =AVERAGE(RANGE)`
+  - Click on sum in the editing section of home tab,and then select the cells you want to sum and then press enter.same for max,min,avg ,etc
+  - `alt + =`
+  - to do the same with following cells ,drag or double click the fill handle.
+  - `% :`
+    - enter `=` and then the press the total cell,enter `/` to total marks and `*` to `100`.

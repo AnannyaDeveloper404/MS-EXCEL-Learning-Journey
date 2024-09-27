@@ -85,3 +85,53 @@
   - to do the same with following cells ,drag or double click the fill handle.
   - `% :`
     - enter `=` and then the press the total cell,enter `/` to total marks and `*` to `100`.
+
+# Conditional Formatting
+
+- select the region where you want to apply the operation
+- Go to the `Home` tab -> click on `Styles` -> select `Highlight Cells Rules` -> choose `Greater Than`. This will apply a different color to numbers greater than the specified value..You can contrast with border,colors
+- to remove the highlight ,select `clear rule`
+
+## 1. Highlight Cells Rules
+
+- **Greater Than**: Highlight cells greater than a specified value.
+- **Less Than**: Highlight cells less than a specified value.
+- **Between**: Highlight cells between two specified values.
+- **Equal To**: Highlight cells equal to a specified value.
+- **Text that Contains**: Highlight cells containing specific text.
+- **A Date Occurring**: Highlight cells with dates in a certain range (e.g., yesterday, today).
+- **Duplicate Values**: Highlight duplicate or unique values.
+
+## 2. Top/Bottom Rules
+
+- **Top 10 Items**: Highlight the top 10 (or specified number) highest values.
+- **Top 10%**: Highlight the top 10% of values.
+- **Bottom 10 Items**: Highlight the bottom 10 (or specified number) lowest values.
+- **Bottom 10%**: Highlight the bottom 10% of values.
+- **Above Average**: Highlight values that are above the average.
+- **Below Average**: Highlight values that are below the average.
+
+## 3. Data Bars
+
+- Use bars to visually represent the values in cells. The length of the bar reflects the cell value.
+
+## 4. Color Scales
+
+- Apply a range of colors based on values, creating a gradient from low to high values.
+
+## 5. Icon Sets
+
+- Use icons like arrows, shapes, or traffic lights to represent relative cell values.
+
+## 6. New Rule
+
+- Create a custom rule using formulas for more advanced conditional formatting.
+
+## 7. Clear Rules
+
+- **Clear Rules from Selected Cells**: Remove formatting from selected cells.
+- **Clear Rules from Entire Sheet**: Remove all formatting from the worksheet.
+
+### Hiding the number in an specfied region
+
+- `Home`->`Number`->`General drop down menu`->enter `;`

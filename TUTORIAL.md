@@ -1,13 +1,14 @@
-**Microsoft Office**
+# **Microsoft Office**
 
-- MicroSoft Office is bunch of different apps or tools that are used in offices and Corporates # It was announced by Bill Gates in 1988
-  - **MS EXCEL**
-  - **POWERPOINT**
-  - **WORD**
+MicroSoft Office is bunch of different apps or tools that are used in offices and Corporates # It was announced by Bill Gates in 1988
+
+- **MS EXCEL**
+- **POWERPOINT**
+- **WORD**
 
 **MS EXCEL**
 
-- MS EXCEL is a spreadsheet software created by Microsoft that is used to organize numbers and data in a sheet.
+MS EXCEL is a spreadsheet software created by Microsoft that is used to organize numbers and data in a sheet.
 
 **PURPOSES**
 
@@ -86,13 +87,13 @@
   - `% :`
     - enter `=` and then the press the total cell,enter `/` to total marks and `*` to `100`.
 
-# Conditional Formatting
+## Conditional Formatting
 
 - select the region where you want to apply the operation
 - Go to the `Home` tab -> click on `Styles` -> select `Highlight Cells Rules` -> choose `Greater Than`. This will apply a different color to numbers greater than the specified value..You can contrast with border,colors
 - to remove the highlight ,select `clear rule`
 
-## 1. Highlight Cells Rules
+### 1. Highlight Cells Rules
 
 - **Greater Than**: Highlight cells greater than a specified value.
 - **Less Than**: Highlight cells less than a specified value.
@@ -102,7 +103,7 @@
 - **A Date Occurring**: Highlight cells with dates in a certain range (e.g., yesterday, today).
 - **Duplicate Values**: Highlight duplicate or unique values.
 
-## 2. Top/Bottom Rules
+### 2. Top/Bottom Rules
 
 - **Top 10 Items**: Highlight the top 10 (or specified number) highest values.
 - **Top 10%**: Highlight the top 10% of values.
@@ -111,27 +112,71 @@
 - **Above Average**: Highlight values that are above the average.
 - **Below Average**: Highlight values that are below the average.
 
-## 3. Data Bars
+### 3. Data Bars
 
 - Use bars to visually represent the values in cells. The length of the bar reflects the cell value.
 
-## 4. Color Scales
+### 4. Color Scales
 
 - Apply a range of colors based on values, creating a gradient from low to high values.
 
-## 5. Icon Sets
+### 5. Icon Sets
 
 - Use icons like arrows, shapes, or traffic lights to represent relative cell values.
 
-## 6. New Rule
+### 6. New Rule
 
 - Create a custom rule using formulas for more advanced conditional formatting.
 
-## 7. Clear Rules
+### 7. Clear Rules
 
 - **Clear Rules from Selected Cells**: Remove formatting from selected cells.
 - **Clear Rules from Entire Sheet**: Remove all formatting from the worksheet.
 
-### Hiding the number in an specfied region
+## Hiding the number in an specfied region
 
 - `Home`->`Number`->`General drop down menu`->enter `;`
+
+## IF / IF-AND / IF-OR / IF-IF :
+
+**IF**
+
+```excel
+  =IF(LOGICAL TEST,[VALUE IF TRUE],[VALUE IF FALSE])
+```
+
+**IF-AND**
+
+```excel
+  =IF(AND(C3>40,D3>40,E3>40,F3>40,G3>40),"PASS","FAIL")
+```
+
+**IF-OR**
+
+```excel
+  =IF(OR(C4<40,D4<40,E4<40,F4<40,G4<40),"FAIL","PASS")
+```
+
+**IF-IF**
+
+```excel
+=IF(M3="FAIL","F",IF(L3>=75,"A+",IF(L3>=60,"A",IF(L3>=50,"B",IF(L3>40,"C","D")))))
+
+```
+
+## FORMAT AS TABLE:
+
+`HOME` -> `STYLES` -> `FORMAT AS TABLE` -> choose format
+
+## Filtering Sorting
+
+- `alt > A > T`
+- `home` -> `editing` -> `sort and filter`
+- `data`->`sort and filter`
+- **Equals**: Displays rows where the cell content exactly matches the specified text.
+- **Does Not Equal**: Displays rows where the cell content does not exactly match the specified text.
+- **Begins With**: Filters rows where the cell content starts with the specified text.
+- **Ends With**: Filters rows where the cell content ends with the specified text.
+- **Contains**: Displays rows where the cell content includes the specified text anywhere within it.
+- **Does Not Contain**: Displays rows where the cell content does not include the specified text.
+- **Custom Filter**: Allows combining multiple filter criteria, such as filtering for text that contains or begins with specific characters.

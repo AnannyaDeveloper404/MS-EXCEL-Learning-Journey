@@ -180,3 +180,15 @@ MS EXCEL is a spreadsheet software created by Microsoft that is used to organize
 - **Contains**: Displays rows where the cell content includes the specified text anywhere within it.
 - **Does Not Contain**: Displays rows where the cell content does not include the specified text.
 - **Custom Filter**: Allows combining multiple filter criteria, such as filtering for text that contains or begins with specific characters.
+
+## Charts - Bar,Column,graph,PieChart
+
+- `Insert Tab` -> `Charts section` select your desired charts ,and to customize it ,click on the chart and then **chart design** will pop up in the ribbon,then customize it accordingly.
+  - Add title
+  - omit vertical heading or horizontal heading
+  - change color combination..etc
+
+### Format Painter
+
+- `Home tab`-> `clipboard`->format painter(looks like paint brush)
+  Click on the cell whose style you want to copy, then double-click the Format Painter. After that, select the cell or range of cells where you want to apply the copied format.

@@ -188,7 +188,17 @@ MS EXCEL is a spreadsheet software created by Microsoft that is used to organize
   - omit vertical heading or horizontal heading
   - change color combination..etc
 
+## Home Tab
+
 ### Format Painter
 
 - `Home tab`-> `clipboard`->format painter(looks like paint brush)
   Click on the cell whose style you want to copy, then double-click the Format Painter. After that, select the cell or range of cells where you want to apply the copied format.
+
+### Removing border
+
+- select the region where you want remove the border,then click on the windows shape icon ..You will not see the effect right away,once you fill the region with color ,you will get to see there is no border
+
+### Text color:
+
+- An Icon looks like `A`,clicking on it will change the color of selected cells' text.

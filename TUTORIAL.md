@@ -206,3 +206,5 @@ MS EXCEL is a spreadsheet software created by Microsoft that is used to organize
 ### changing the row-width :
 
 - Select the region and then hover at row line ,Dragging it will increase the width of all the row's row-width
+
+### Alignment section

@@ -202,3 +202,7 @@ MS EXCEL is a spreadsheet software created by Microsoft that is used to organize
 ### Text color:
 
 - An Icon looks like `A`,clicking on it will change the color of selected cells' text.
+
+### changing the row-width :
+
+- Select the region and then hover at row line ,Dragging it will increase the width of all the row's row-width

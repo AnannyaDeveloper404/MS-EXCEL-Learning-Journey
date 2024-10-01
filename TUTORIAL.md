@@ -224,4 +224,5 @@ MS EXCEL is a spreadsheet software created by Microsoft that is used to organize
 ### Inserting bullet point:
 
 - `Insert Tab -> Symbol -> Symbol -> in verdana font `
+- `=CHAR(149)`-> enter
 - `=CHAR(149)&""&A1`

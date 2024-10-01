@@ -84,7 +84,7 @@ MS EXCEL is a spreadsheet software created by Microsoft that is used to organize
   - Click on sum in the editing section of home tab,and then select the cells you want to sum and then press enter.same for max,min,avg ,etc
   - `alt + =`
   - to do the same with following cells ,drag or double click the fill handle.
-  - `% :`
+  - `% `:
     - enter `=` and then the press the total cell,enter `/` to total marks and `*` to `100`.
 
 ## Conditional Formatting
@@ -206,5 +206,17 @@ MS EXCEL is a spreadsheet software created by Microsoft that is used to organize
 ### changing the row-width :
 
 - Select the region and then hover at row line ,Dragging it will increase the width of all the row's row-width
+- In cells section of home tab,format option has various option
+  - row/column height
+  - autofit
+  - hide/unhide
 
-### Alignment section
+### Wrapping the text
+
+- wrap-text:present in alignment section of home tab.It wraps the text in the cell.
+- `alt + enter`
+
+### Printing excel sheet in single page:
+
+- Print: `file -> print -> show preview` or `ctrl + p`
+- Grid line enabling: `page layout -> sheet option -> tick the **print** check box`

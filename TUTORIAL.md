@@ -220,3 +220,8 @@ MS EXCEL is a spreadsheet software created by Microsoft that is used to organize
 
 - Print: `file -> print -> show preview` or `ctrl + p`
 - Grid line enabling: `page layout -> sheet option -> tick the **print** check box`
+
+### Inserting bullet point:
+
+- `Insert Tab -> Symbol -> Symbol -> in verdana font `
+- `=CHAR(149)&""&A1`

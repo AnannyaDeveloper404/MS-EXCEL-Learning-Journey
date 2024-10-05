@@ -188,7 +188,7 @@ MS EXCEL is a spreadsheet software created by Microsoft that is used to organize
   - omit vertical heading or horizontal heading
   - change color combination..etc
 
-## Home Tab
+##
 
 ### Format Painter
 
@@ -226,3 +226,18 @@ MS EXCEL is a spreadsheet software created by Microsoft that is used to organize
 - `Insert Tab -> Symbol -> Symbol -> in verdana font `
 - `=CHAR(149)`-> enter
 - `=CHAR(149)&""&A1`
+
+### Grouping ungrouping
+
+- `data tab`->`Outline`->`Grouping`
+- It will create a separation between regions based on the options you select, such as row or column.
+- to Ungropup ,select the region you have grouped earlier and then click on `ungroup`
+
+### Adding logo in Excel
+
+- `Insert`-> `Text`->`Header and footer`
+- You can insert picture,You just have to navigate to the header & footer tab(newly popped),clicked on Picture.
+- Format picture in newly popped header & footer tab.
+  update height
+- To change the position, press enter before &picture.
+- To reduce the transpancy, navigate to `picture format` and then `picture`,in automatic option, select `washout`.

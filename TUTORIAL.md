@@ -241,3 +241,12 @@ MS EXCEL is a spreadsheet software created by Microsoft that is used to organize
   update height
 - To change the position, press enter before &picture.
 - To reduce the transpancy, navigate to `picture format` and then `picture`,in automatic option, select `washout`.
+- To dd the text as a logo, remove &picture and enter the logo text.Customize the text as needed.
+
+### To hide a row:
+
+- right click on te row heading,select `hide` option in the menu"
+- To select non-consecutive rows, hold down Ctrl while clicking on the desired rows.
+- To unhide multiple rows,then click on unhide in `format` section.
+- Same for column hiding
+- to select blank cells at once,select the region, `ctrl + g`,->`Special`->`Blanks`

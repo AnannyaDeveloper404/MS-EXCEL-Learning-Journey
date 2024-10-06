@@ -250,3 +250,18 @@ MS EXCEL is a spreadsheet software created by Microsoft that is used to organize
 - To unhide multiple rows,then click on unhide in `format` section.
 - Same for column hiding
 - to select blank cells at once,select the region, `ctrl + g`,->`Special`->`Blanks`
+
+### Paste's different features:
+
+- **Normal pasting** : Paste everything (format,font,formulae)
+- **Formula F pasting** : table data and corresponding formula
+- **Formula and Number formatting pasting** : Table data ,formula and also number format (e.g, 56.00 -> 56.00)
+- **Keep source formatting** : It pastes everything aside from few things such as width of the a specific column.
+- **No Border Pasting**: As the name suggests,pasting will occur without any border.
+- **Keep source column width**:
+- **Transpose** :Column and row interchanges therir place
+- **Value and source Formatting** : Doesn't copy formula
+- **Formatting paste**: doesn't paste data ,only format
+- **Paste Link** : Change in pasted table will make change in sorce table.
+- **Picture** : Pasted as Image format.
+- **Picture Link format**: Same as `Picture` pasting .but update in main table will update the image as well.

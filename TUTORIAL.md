@@ -265,3 +265,4 @@ MS EXCEL is a spreadsheet software created by Microsoft that is used to organize
 - **Paste Link** : Change in pasted table will make change in sorce table.
 - **Picture** : Pasted as Image format.
 - **Picture Link format**: Same as `Picture` pasting .but update in main table will update the image as well.
+-

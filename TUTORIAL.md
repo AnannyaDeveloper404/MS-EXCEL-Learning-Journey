@@ -259,9 +259,17 @@ MS EXCEL is a spreadsheet software created by Microsoft that is used to organize
 - **Keep source formatting** : It pastes everything aside from few things such as width of the a specific column.
 - **No Border Pasting**: As the name suggests,pasting will occur without any border.
 - **Keep source column width**:
-- **Transpose** :Column and row interchanges therir place
+- **Transpose** :Column and row interchanges their place
 - **Value and source Formatting** : Doesn't copy formula
 - **Formatting paste**: doesn't paste data ,only format
 - **Paste Link** : Change in pasted table will make change in sorce table.
 - **Picture** : Pasted as Image format.
 - **Picture Link format**: Same as `Picture` pasting .but update in main table will update the image as well.
+
+### Protect the Excel :
+
+- **Protecting sheet**:`Review `->`Protect`->`Protect sheet`->Enter password -> `ok`
+- To make changes in protected sheet,You must `Unprotect` it.
+- **Protecting Workbook**:`Review `->`Protect`->`Protect Workbook`->Enter password -> `ok`
+- **Protecting a particular cell**:select the whole region,then `Home`->`Number` section drop down menu-> `Protection` -> uncheck the `lock`.then select the intended cell and ,then `Home`->`Number` section drop down menu-> `Protection` -> check the `lock`.After that `Review `->`Protect`->`Protect sheet`->Enter password -> `ok`
+- **Lock during save**: During saving the file,click on `tools` (Left of the `Save` button).and then click on `general options`

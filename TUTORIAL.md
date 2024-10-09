@@ -273,3 +273,209 @@ MS EXCEL is a spreadsheet software created by Microsoft that is used to organize
 - **Protecting Workbook**:`Review `->`Protect`->`Protect Workbook`->Enter password -> `ok`
 - **Protecting a particular cell**:select the whole region,then `Home`->`Number` section drop down menu-> `Protection` -> uncheck the `lock`.then select the intended cell and ,then `Home`->`Number` section drop down menu-> `Protection` -> check the `lock`.After that `Review `->`Protect`->`Protect sheet`->Enter password -> `ok`
 - **Lock during save**: During saving the file,click on `tools` (Left of the `Save` button).and then click on `general options`
+
+#### Spell check:
+
+- It can be found in `review` tab
+- Adding comment also can be found in `review` section.
+
+#### Array function:
+
+```excel
+= SUM(<Select a range> * <Select another range> )
+<!-- -> `ctrl+shift+enter` -->
+```
+
+### AVERAGEIF, AVERAGEIFS and DAVERAGE
+
+```excel
+=AVERAGEIF(<range>,<criteria>,<Avg_Range>)
+```
+
+```excel
+=AVERAGEIFS(<Avg_Range>,<range1>,<criteria1>,<range2>,<criteria2>....)
+```
+
+## Example and Explanation of the DAVERAGE Function in Excel
+
+### Dataset:
+
+| Name of Employee | Department   | Age | Sales |
+| ---------------- | ------------ | --- | ----- |
+| Murari Lal       | Blower       | 25  | 79    |
+| Bagat Singh      | Mobile Phone | 28  | 67    |
+| Raja             | LCD TV       | 30  | 47    |
+| Utkal Kumar      | LCD TV       | 27  | 57    |
+| Ajay Sharma      | LCD TV       | 26  | 48    |
+| Ram Kumar        | Blower       | 25  | 94    |
+| Vijay            | Blower       | 28  | 94    |
+| Susmita          | LCD TV       | 25  | 49    |
+| Bansal           | Mobile Phone | 29  | 76    |
+| Sonu             | Mobile Phone | 26  | 47    |
+| Kavita           | Mobile Phone | 29  | 58    |
+| Rohan            | Mobile Phone | 27  | 97    |
+| Mohan            | Blower       | 28  | 96    |
+| Golu             | Mobile Phone | 24  | 48    |
+| Avinita          | LCD TV       | 27  | 36    |
+| Sakshi           | LCD TV       | 28  | 48    |
+| Vimal            | Mobile Phone | 28  | 30    |
+| Kamal            | Blower       | 29  | 63    |
+| Roshan           | Blower       | 27  | 78    |
+
+### Criteria Table (G1:H2):
+
+| Department | Age |
+| ---------- | --- |
+| Blower     | >27 |
+
+The criteria are:
+
+- Employees who work in the "Blower" department.
+- Employees whose age is greater than 27.
+
+### Formula:
+
+In cell G5, the following formula is entered:
+
+```excel
+=DAVERAGE(A1:D20, "Sales", G1:H2)
+```
+
+## DGET Formula:
+
+```md
+| S.no | Product Name     | Company    | Stock Units |
+| ---- | ---------------- | ---------- | ----------- |
+| 1    | Motor            | Crompton   | 56          |
+| 2    | Heater           | Havells    | 75          |
+| 3    | Fridge           | Godrej     | 34          |
+| 4    | Cooler           | Bajaj      | 39          |
+| 5    | Mixer Grinder    | Philips    | 89          |
+| 6    | TV               | Samsung    | 70          |
+| 7    | Remote           | xyz        | 65          |
+| 8    | Speaker          | JBL        | 24          |
+| 9    | Induction Chulla | Usha       | 20          |
+| 10   | Microwave        | Haier      | 20          |
+| 11   | AC               | LG         | 35          |
+| 12   | Washing Machine  | IFB        | 67          |
+| 13   | Exhaust Fan      | Electrolux | 68          |
+| 14   | Ceiling Fan      | Khaitan    | 98          |
+| 15   | Table Fan        | Orient     | 56          |
+```
+
+## Excel `DGET` Function Cheat Sheet
+
+**Formula:**
+
+```excel
+=DGET(database, field, criteria)
+```
+
+### Explanation:
+
+- **Database**: The entire range of the table including headers (e.g., `A1:D16`).
+- **Field**: The column from which to retrieve data. This can either be the header name in quotation marks or the index of the column (e.g., `"Stock Units"` or `4`).
+- **Criteria**: The range that specifies the conditions (e.g., `G1:G2`).
+
+### Example:
+
+```excel
+=DGET(A1:D16, D1, G1:G2)
+```
+
+- **Database**: `A1:D16` - the range covering the entire table.
+- **Field**: `D1` - refers to the "Stock Units" column.
+- **Criteria**: `G1:G2` - matches the product name in the "Product Name" column.
+
+### Key Notes:
+
+- The `DGET` function retrieves a single value from a database that matches the criteria.
+- If no matching record or more than one match is found, it returns an error.
+
+## DMIN and DMAX
+
+| S.no | Garment Type | Material | Size | Color | Total Piece |
+| ---- | ------------ | -------- | ---- | ----- | ----------- |
+| 1    | Kurta        | Cotton   | S    | Black | 20          |
+| 2    | Pajama       | Rayon    | M    | White | 30          |
+| 3    | Mens Jeans   | Cotton   | XL   | Blue  | 55          |
+| 4    | Pants        | Cotton   | XXL  | White | 43          |
+| 5    | Trouser      | Cotton   | L    | Green | 24          |
+| 6    | Kurta        | Rayon    | XL   | Black | 65          |
+| 7    | Pajama       | Cotton   | S    | White | 19          |
+| 8    | Mens Jeans   | Rayon    | S    | Blue  | 8           |
+| 9    | Pants        | Cotton   | M    | White | 39          |
+| 10   | Trouser      | Rayon    | M    | Green | 26          |
+| 11   | T Shirt      | Cotton   | N/A  | Pink  | 56          |
+| 12   | T Shirt      | Silk     | N/A  | Grey  | 34          |
+| 13   | Kurta        | Cotton   | XXL  | Black | 67          |
+| 14   | Mens Jeans   | Cotton   | M    | White | 43          |
+| 15   | Mens Jeans   | Cotton   | M    | Grey  | 9           |
+| 16   | Mens Jeans   | Rayon    | M    | Grey  | 12          |
+| 17   | Pajama       | Cotton   | XL   | Grey  | 46          |
+
+---
+
+## Excel `DMIN` and `DMAX` Cheat Sheet
+
+### `DMAX` Function
+
+**Formula:**
+
+```excel
+=DMAX(database, field, criteria)
+```
+
+- **Database**: The range of cells that contains the entire table.
+- **Field**: The column to find the maximum value from. This can be the column name or the column index number.
+- **Criteria**: The range where the conditions for the query are set.
+
+### Example for Maximum in the Image:
+
+In cell `I3`, the formula likely calculates the maximum value of **Total Piece** for the criteria provided:
+
+```excel
+=DMAX(A1:E17, E1, H1:I2)
+```
+
+- **Database**: `A1:E17` (the range of the table).
+- **Field**: `E1` ("Total Piece" column).
+- **Criteria**: `H1:I2` (criteria for finding the maximum value for Garment Type = "Kurta" and Material = "Cotton").
+
+Result: 67
+
+---
+
+### `DMIN` Function
+
+**Formula:**
+
+```excel
+=DMIN(database, field, criteria)
+```
+
+- **Database**: The range of cells containing the table.
+- **Field**: The column to find the minimum value from. This can be the column name or the column index number.
+- **Criteria**: The range of cells containing the criteria for the query.
+
+### Example for Minimum in the Image:
+
+In cell `I9`, the formula likely calculates the minimum value of **Total Piece** for the criteria provided:
+
+```excel
+=DMIN(A1:E17, E1, H8:I9)
+```
+
+- **Database**: `A1:E17` (range of the table).
+- **Field**: `E1` ("Total Piece" column).
+- **Criteria**: `H8:I9` (criteria for finding the minimum value for Garment Type = "Mens Jeans" and Size = "M").
+
+Result: 9
+
+---
+
+### Key Notes for `DMAX` and `DMIN`:
+
+- **DMAX** finds the maximum value in a field that meets the specified criteria.
+- **DMIN** finds the minimum value in a field that meets the specified criteria.
+- The **criteria** range is important and must match column headings and data conditions correctly.

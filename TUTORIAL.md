@@ -705,6 +705,182 @@ _Counts the number of numeric entries in the "Sales" column of the range A1:C10 
 - Use `COUNTIF` and `COUNTIFS` for conditional counting.
 - Use `DCOUNT` for counting entries in a structured database format.
 
+# Excel Functions Cheat Sheet
+
+## 1. ROUND Function
+
+**Description:**  
+Rounds a number to a specified number of digits.
+
+**Syntax:**
+
+```excel
+ROUND(number, num_digits)
+```
+
+- **number:** The number you want to round.
+- **num_digits:** The number of digits to which you want to round the number.
+
+**Example:**
+
+```excel
+=ROUND(3.14159, 2)
+```
+
+_Rounds 3.14159 to 2 decimal places, resulting in 3.14._
+
+---
+
+## 2. ROUNDDOWN Function
+
+**Description:**  
+Rounds a number down towards zero to a specified number of digits.
+
+**Syntax:**
+
+```excel
+ROUNDDOWN(number, num_digits)
+```
+
+- **number:** The number you want to round down.
+- **num_digits:** The number of digits to which you want to round down.
+
+**Example:**
+
+```excel
+=ROUNDDOWN(3.14159, 2)
+```
+
+_Rounds 3.14159 down to 2 decimal places, resulting in 3.14._
+
+---
+
+## 3. FACT Function
+
+**Description:**  
+Calculates the factorial of a number.
+
+**Syntax:**
+
+```excel
+FACT(number)
+```
+
+- **number:** The non-negative integer for which you want the factorial.
+
+**Example:**
+
+```excel
+=FACT(5)
+```
+
+_Calculates the factorial of 5 (5!) which equals 120._
+
+---
+
+## 4. DISCOUNT Function
+
+**Description:**  
+Calculates the discount amount given a certain percentage off a price.
+
+**Syntax:**
+
+```excel
+DISCOUNT(price, discount_rate)
+```
+
+- **price:** The original price of the item.
+- **discount_rate:** The discount percentage expressed as a decimal.
+
+**Example:**
+
+```excel
+=DISCOUNT(100, 0.2)
+```
+
+_Calculates a discount of 20% on $100, resulting in $20._
+
+---
+
+## 5. MOD Function
+
+**Description:**  
+Returns the remainder after a number is divided by a divisor.
+
+**Syntax:**
+
+```excel
+MOD(number, divisor)
+```
+
+- **number:** The number you want to divide.
+- **divisor:** The number by which you want to divide.
+
+**Example:**
+
+```excel
+=MOD(10, 3)
+```
+
+_Returns the remainder of 10 divided by 3, which is 1._
+
+---
+
+## 6. EVEN Function
+
+**Description:**  
+Rounds a number up to the nearest even integer.
+
+**Syntax:**
+
+```excel
+EVEN(number)
+```
+
+- **number:** The number you want to round up to the nearest even integer.
+
+**Example:**
+
+```excel
+=ISEVEN(3) #returns true or false
+```
+
+_Rounds 3 up to the nearest even integer, resulting in 4._
+
+---
+
+## 7. ODD Function
+
+**Description:**  
+Rounds a number up to the nearest odd integer.
+
+**Syntax:**
+
+```excel
+ODD(number)
+```
+
+- **number:** The number you want to round up to the nearest odd integer.
+
+**Example:**
+
+```excel
+=ODD(4)
+```
+
+_Rounds 4 up to the nearest odd integer, resulting in 5._
+
+---
+
+### Usage Tips
+
+- Use `ROUND` for general rounding needs.
+- Use `ROUNDDOWN` when you want to ensure a number is rounded down.
+- Use `FACT` for combinatorial calculations or probability problems.
+- Use `DISCOUNT` to quickly calculate discount amounts for pricing.
+- Use `MOD` for determining evenness or oddness of numbers or for cycling through values.
+- Use `EVEN` and `ODD` to standardize data to the nearest whole number for certain calculations.
+
 ```
 
 ```

@@ -479,3 +479,73 @@ Result: 9
 - **DMAX** finds the maximum value in a field that meets the specified criteria.
 - **DMIN** finds the minimum value in a field that meets the specified criteria.
 - The **criteria** range is important and must match column headings and data conditions correctly.
+  Here's a cheat sheet in Markdown format for the `TODAY`, `EDATE`, and `NOW` functions in Microsoft Excel:
+
+````markdown
+# Excel Functions Cheat Sheet
+
+## 1. TODAY Function
+
+**Description:**  
+Returns the current date. The date updates automatically each time the worksheet is recalculated.
+
+**Syntax:**
+
+```excel
+TODAY()
+```
+````
+
+**Example:**
+
+```excel
+=TODAY()
+```
+
+_Returns today's date, e.g., `2024-10-11`._
+
+---
+
+## 2. EDATE Function
+
+**Description:**  
+Returns the serial number of the date that is the indicated number of months before or after a specified date.
+
+**Syntax:**
+
+```excel
+EDATE(start_date, months)
+```
+
+- **start_date:** The starting date.
+- **months:** The number of months to add (positive number) or subtract (negative number).
+
+**Example:**
+
+```excel
+=EDATE(TODAY(), 3)
+```
+
+_Returns the date three months from today._
+
+```excel
+=EDATE(TODAY(), -1)
+```
+
+_Returns the date one month before today._
+
+---
+
+## 3. NOW Function
+
+**Description:**  
+Returns the current date and time. The value updates automatically each time the worksheet is recalculated.
+**Example:**
+
+```excel
+=NOW()
+```
+
+_Returns the current date and time, e.g., `2024-10-11 14:30:00`._
+
+---

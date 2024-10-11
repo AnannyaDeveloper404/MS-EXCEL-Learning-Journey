@@ -549,3 +549,162 @@ Returns the current date and time. The value updates automatically each time the
 _Returns the current date and time, e.g., `2024-10-11 14:30:00`._
 
 ---
+
+Here’s a cheat sheet in Markdown format for the `COUNT`, `COUNTA`, `COUNTBLANK`, `COUNTIF`, `COUNTIFS`, and `DCOUNT` functions in Microsoft Excel:
+
+## 1. COUNT Function
+
+**Description:**  
+Counts the number of cells that contain numeric values in a range.
+
+**Syntax:**
+
+```excel
+COUNT(value1, [value2], ...)
+```
+
+- **value1:** The first argument that can be a range or a value.
+- **value2:** (Optional) Additional arguments.
+
+**Example:**
+
+```excel
+=COUNT(A1:A10)
+```
+
+_Counts the number of numeric values in the range A1:A10._
+
+---
+
+## 2. COUNTA Function
+
+**Description:**  
+Counts the number of non-empty cells in a range, regardless of the data type.
+
+**Syntax:**
+
+```excel
+COUNTA(value1, [value2], ...)
+```
+
+- **value1:** The first argument that can be a range or a value.
+- **value2:** (Optional) Additional arguments.
+
+**Example:**
+
+```excel
+=COUNTA(A1:A10)
+```
+
+_Counts all non-empty cells in the range A1:A10._
+
+---
+
+## 3. COUNTBLANK Function
+
+**Description:**  
+Counts the number of empty cells in a specified range.
+
+**Syntax:**
+
+```excel
+COUNTBLANK(range)
+```
+
+- **range:** The range in which to count empty cells.
+
+**Example:**
+
+```excel
+=COUNTBLANK(A1:A10)
+```
+
+_Counts the number of empty cells in the range A1:A10._
+
+---
+
+## 4. COUNTIF Function
+
+**Description:**  
+Counts the number of cells that meet a single specified criterion.
+
+**Syntax:**
+
+```excel
+COUNTIF(range, criteria)
+```
+
+- **range:** The range of cells to count.
+- **criteria:** The condition that must be met.
+
+**Example:**
+
+```excel
+=COUNTIF(A1:A10, ">10")
+```
+
+_Counts the number of cells in the range A1:A10 that are greater than 10._
+
+---
+
+## 5. COUNTIFS Function
+
+**Description:**  
+Counts the number of cells that meet multiple specified criteria.
+
+**Syntax:**
+
+```excel
+COUNTIFS(criteria_range1, criteria1, [criteria_range2, criteria2], ...)
+```
+
+- **criteria_range1:** The first range to evaluate.
+- **criteria1:** The condition for the first range.
+- **criteria_range2, criteria2:** (Optional) Additional ranges and conditions.
+
+**Example:**
+
+```excel
+=COUNTIFS(A1:A10, ">10", B1:B10, "<5")
+```
+
+_Counts the number of rows where values in A1:A10 are greater than 10 and values in B1:B10 are less than 5._
+
+---
+
+## 6. DCOUNT Function
+
+**Description:**  
+Counts the cells that contain numbers in a database that meet specified conditions.
+
+**Syntax:**
+
+```excel
+DCOUNT(database, field, criteria)
+```
+
+- **database:** The range that makes up the database, including headers.
+- **field:** The column to count (can be the column label or the column number).
+- **criteria:** The range that contains the criteria for counting.
+
+**Example:**
+
+```excel
+=DCOUNT(A1:C10, "Sales", E1:E2)
+```
+
+_Counts the number of numeric entries in the "Sales" column of the range A1:C10 based on criteria specified in E1:E2._
+
+---
+
+### Usage Tips
+
+- Use `COUNT` to get a quick count of numeric values.
+- Use `COUNTA` when you need to include all types of entries, including text.
+- Use `COUNTBLANK` to identify gaps in data entry.
+- Use `COUNTIF` and `COUNTIFS` for conditional counting.
+- Use `DCOUNT` for counting entries in a structured database format.
+
+```
+
+```

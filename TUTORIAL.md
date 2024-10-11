@@ -880,7 +880,129 @@ _Rounds 4 up to the nearest odd integer, resulting in 5._
 - Use `DISCOUNT` to quickly calculate discount amounts for pricing.
 - Use `MOD` for determining evenness or oddness of numbers or for cycling through values.
 - Use `EVEN` and `ODD` to standardize data to the nearest whole number for certain calculations.
+  Here’s a cheat sheet in Markdown format for the `INT`, `ROMAN`, `TRIM`, `ABS`, and `CONCATENATE` functions in Microsoft Excel:
 
+## 1. INT Function
+
+**Description:**  
+Rounds a number down to the nearest integer.
+
+**Syntax:**
+
+```excel
+INT(number)
 ```
 
+- **number:** The number you want to round down.
+
+**Example:**
+
+```excel
+=INT(3.7)
 ```
+
+_Rounds 3.7 down to the nearest integer, resulting in 3._
+
+---
+
+## 2. ROMAN Function
+
+**Description:**  
+Converts an Arabic numeral to a Roman numeral.
+
+**Syntax:**
+
+```excel
+ROMAN(number, [form])
+```
+
+- **number:** The integer you want to convert to a Roman numeral (1 to 3999).
+- **form:** Optional. A number that determines the type of Roman numeral. 0 (or omitted) returns the standard form, while values from 1 to 4 return progressively simplified forms.
+
+**Example:**
+
+```excel
+=ROMAN(2024)
+```
+
+_Converts the number 2024 to Roman numerals, resulting in MMXXIV._
+
+---
+
+## 3. TRIM Function
+
+**Description:**  
+Removes extra spaces from text except for single spaces between words.
+
+**Syntax:**
+
+```excel
+TRIM(text)
+```
+
+- **text:** The text from which you want to remove extra spaces.
+
+**Example:**
+
+```excel
+=TRIM("   Hello   World   ")
+```
+
+_Removes extra spaces, resulting in "Hello World"._
+
+---
+
+## 4. ABS Function
+
+**Description:**  
+Returns the absolute value of a number.
+
+**Syntax:**
+
+```excel
+ABS(number)
+```
+
+- **number:** The number for which you want the absolute value.
+
+**Example:**
+
+```excel
+=ABS(-10)
+```
+
+_Returns the absolute value of -10, resulting in 10._
+
+---
+
+## 5. CONCATENATE Function
+
+**Description:**  
+Joins two or more text strings into one string.
+
+**Syntax:**
+
+```excel
+CONCATENATE(text1, [text2], ...)
+```
+
+- **text1:** The first text string to join.
+- **text2:** Additional text strings to join (optional).
+
+**Example:**
+
+```excel
+=CONCATENATE("Hello", " ", "World")
+```
+
+_Joins "Hello" and "World" with a space in between, resulting in "Hello World"._
+
+---
+
+### Usage Tips
+
+- Use `INT` to discard the decimal portion of a number.
+- Use `ROMAN` for representing numbers in Roman numeral format, especially in historical contexts.
+- Use `TRIM` to clean up user inputs or imported data for better accuracy in analysis.
+- Use `ABS` to ensure values are non-negative, particularly in calculations involving distances or differences.
+- Use `CONCATENATE` to create readable strings from multiple pieces of information, but consider using the `&` operator or the `TEXTJOIN` function for more flexibility in newer Excel versions.
